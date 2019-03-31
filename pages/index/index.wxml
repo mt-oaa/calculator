@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="../../image/logo.png"></image>
+   
+  </view>
+  
+  <view class="usermotto">
+    <button class="user-motto" bindtap='nextpage_0'>{{motto0}}</button>
+    <button class="user-motto" bindtap='nextpage_1'>{{motto1}}</button>
+  </view>
+ 
+  <view class='logo'>
+    <text class='logo_text'>made in 101</text>
+  </view>
+
+</view>

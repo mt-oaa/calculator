@@ -1,0 +1,31 @@
+
+<!--index.wxml-->
+<view class="container">
+  <view class="result">
+    
+    <view class="titles">匹配度</view>
+    <view class="score">{{score_2}}</view> 
+    </view>
+     <view class="tip first-tip">
+      <view class="physical-condition">得分：<text class="">{{goal}}</text></view></view>
+    
+
+  <view class="input-container">
+    <view class="item">
+      <text class="label">姓名1</text>
+      <text class="unit"></text>
+      <input type="digit" bindinput="bindKeyHightInput0" maxlength="6" class="" />
+    </view>
+    
+    <view class="item">
+      <text class="label">姓名2</text>
+      <text class="unit"></text>
+      <input type="digit" bindinput="bindKeyHightInput1" maxlength="6" class="" />
+    </view>
+    
+    
+    <button class="calcu_btn" bindtap="calculateBtn">开始计算</button>
+  </view>
+  </view>
+
+ 

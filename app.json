@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+  
+    "pages/name/index",
+    "pages/start/start",
+    "pages/payment/index",
+    "pages/BMI/index",
+   
+    "pages/calculator0/calculator0",
+    "pages/super/index",
+    "pages/birth/index"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#faf8ee",
+    "navigationBarTitleText": "姻缘",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false
+  },
+  "debug": true
+}
